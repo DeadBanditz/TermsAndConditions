@@ -1,0 +1,51 @@
+.top-items-control {
+    background-color: black;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+.top-items-header {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-items-header header {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    font-family: newerfont;
+}
+
+.top-items-header header span {
+    color: #c8ff00;
+}
+
+@font-face {
+    font-family: newerfont;
+    src: url(/src/StrangerThings-Regular.ttf);
+}
+
+.newHeader {
+    color: #E8B331;
+    font-family: newerfont;
+    font-size: 25px;
+}
+
+.newBody {
+    color: white;
+    font-size: 15px;
+}
+
+@media (min-width: 767px) {
+    .newHeader {
+        color: #E8B331;
+        font-size: 40px;
+        font-family: newerfont;
+    }
+    .newBody {
+        color: white;
+        font-size: 20px;
+    }
+}

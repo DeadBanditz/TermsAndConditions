@@ -1,0 +1,60 @@
+.roadmap-control header span {
+    color: #FF9859;
+    /* text-shadow: 1px 0 20px rgb(200 255 0 / 31%); */
+    color: white;
+}
+
+@font-face {
+    font-family: newerfont;
+    src: url(/src/StrangerThings-Regular.ttf);
+}
+
+.roadmap-control {
+    background-color: black;
+    background-size: cover;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background-color: #FFE1C9;
+    color: white;
+}
+
+.roadmap-control header {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    color: #88CDDB;
+    font-family: newerfont;
+}
+
+.roadmap-description {
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+}
+
+.roadmap-control img {
+    /* width: 100%; */
+    color: black;
+}
+
+.roadmap-control video {
+    border: solid black 10px;
+    border-radius: 20px;
+    width: 100%;
+    color: black;
+}
+
+.roadimage {
+    height: 220px;
+    width: 450px;
+}
+
+@media (min-width: 767px) {
+    .roadimage {
+        height: 300px;
+        width: 800px;
+    }
+
+}

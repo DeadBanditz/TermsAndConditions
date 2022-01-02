@@ -1,0 +1,26 @@
+.top-items-control {
+    background-image: linear-gradient(to top, #093AF6, #7F005A);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.top-items-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.top-items-header header {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.top-items-header header span {
+    color: #c8ff00;
+    text-align: center;
+}

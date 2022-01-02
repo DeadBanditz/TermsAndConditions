@@ -1,0 +1,58 @@
+.meet-control {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-image: url("https://cdn.discordapp.com/attachments/918955497590235136/920837611252240424/COLORCORRECTED_jared-verdi-PNKwdJ8WetM-unsplash.png");
+    background-size: cover;
+
+    /* background-color: #FFE1C9; */
+}
+
+.meet-control header {
+    font-size: 50px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.meet-control header span {
+    color: #ffffff;
+}
+
+.remaining {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.remaining span {
+    color: #c8ff00;
+}
+
+.slide-arrows {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caroImg {
+    /* border: solid black 10px; */
+    border-radius: 0px;
+    /* background-color: black; */
+}
+
+.slide-arrows a {
+    cursor: pointer;
+    background-color: #c8ff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px
+}

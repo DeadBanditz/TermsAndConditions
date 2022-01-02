@@ -1,0 +1,51 @@
+.about-control {
+    background-color: #000000;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.image-control img {
+    width: 100%;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-description header {
+    font-size: 50px;
+    line-height: 50px;
+    color: #88CDDB;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.about-description p {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.about-description p span {
+    color: #FF9859;
+}
+
+.about-description header span {
+    color: #FF9859;
+}
+
+@font-face {
+    font-family: newfont;
+    src: url(/src/ReporterRegular.ttf);
+}
+
+@font-face {
+    font-family: newerfont;
+    src: url(/src/StrangerThings-Regular.ttf);
+}
+
+.asdf {
+    font-family: newerfont;
+}

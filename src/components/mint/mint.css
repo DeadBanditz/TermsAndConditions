@@ -1,0 +1,111 @@
+.mint-image img {
+    width: 50%;
+    border: solid black 10px;
+    border-radius: 20px;
+}
+
+.mint-control {
+    background-color: black;
+    /* #172A55 */
+    /* #88CDDB */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: "center";
+}
+
+
+.mint-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mint-description header {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+}
+
+.mint-description header span {
+    color: #88CDDB;
+}
+
+.mint-description p {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.mint-description .number-control {
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.mint-description .number-control span{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+.ybutton {
+    background-color: #ffffff;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-width: 80px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 700;
+    border: solid 5px black;
+    border-radius: 20px;
+}
+
+.ybutton:hover{
+    transform: scale(1.1);
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.mintimage {
+    width: 100%;
+    height: 100%;
+    border: solid 5px #E8B331;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-image: url(https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/696845.png?raw=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 767px) {
+    .mintimage {
+        width: 80%;
+        height: 60%;
+        border: solid 10px #E8B331;
+        padding-left: 100px;
+        padding-right: 100px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        background-image: url(https://github.com/DeadBanditz/banditzsite/blob/main/src/assets/696845.png?raw=true);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
